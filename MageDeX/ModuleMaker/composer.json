@@ -1,0 +1,25 @@
+{
+    "name": "magedex/modulemaker",
+    "description": "",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageDeX\\ModuleMake\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "MageDeX/ModuleMaker"
+            ]
+        ]
+    }
+}
